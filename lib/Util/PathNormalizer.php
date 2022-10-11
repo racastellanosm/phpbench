@@ -26,7 +26,6 @@ class PathNormalizer
 
                 return $globPaths;
             }
-
             return [ $path ];
         }, $paths));
     }
